@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color:rgb(226, 238, 241);
+    display: flex;
+}
+
+aside {
+    /*position: fixed;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 290px;
+    height: 100vh;
+    left: 0px;
+    top: 0px;
+    background-color:  rgba(17, 17, 17, 1);
+    border-radius: 0px 50px 0px 0px;
+    float: left;
+}
+
+h1,
+.name {
+    color: rgba(255, 255, 255, 1);
+}
+
+.aside_container {
+    border: 2px solid rgba(2, 238, 255, 0.596);
+    display: flex;
+    flex-direction: column;
+}
+
+.aside-logo {
+    display: flex;
+    margin: 40px;
+    padding: 20px;
+}
+
+.aside-links {
+    display: flex;
+    flex-direction: column;
+    margin: 40px;
+    padding: 20px;
+}
+
+.content-transactions{
+    border: 2px solid rgb(0, 255, 98);
+}
+
+.content-cards {
+    border: 2px solid rgb(0, 255, 98);
+}
+
+.aside-profile {
+    display: flex;
+    margin: 10px;
+    padding: 10px;
+    border: 2px solid rgb(0, 255, 98);
+}
+
+.content-settings {
+    border: 2px solid rgb(0, 255, 98);
+}
+
+.content-logout {
+    border: 2px solid rgb(0, 255, 98);
+    position: relative;
+}
+
+.logout-item {
+    float: left;
+    border: 1px solid rgb(255, 0, 0);
+}
+
+.image {
+    position: absolute;
+    top: 3px;
+}
+
+.content-logout a {
+    margin-left: 10px;
+}
+
+.content-transactions a {
+    color: rgba(186, 190, 200, 1);
+}
+
+.content-cards a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.content-settings a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.content-logout a {
+    color: rgba(255, 255, 255, 1);
+}
+
+.contact-items a {
+    color: rgba(186, 190, 200, 1);
+}
+
+section {
+    border: 4px solid rgb(131, 0, 136);
+    display: flex;
+    margin: 10px;
+}
+
+.active-card-content {
+    height: 184px;
+    width: 315px;
+    left: 368px;
+    top: 102px;
+    border-radius: 12px;
+    border: 1px solid blue;
+    background-color: rgba(38, 212, 105, 0.808);
+}
+
+.balance-items {
+    border: 5px solid red;
+    display: flex;
+    justify-content: space-between;
+}
+
+.new-card-content {
+    height: 184px;
+    width: 315px;
+    left: 714px;
+    top: 102px;
+    border-radius: 12px;
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 50px;
+}
+
+.card-items {
+    display: flex;
+    justify-content: space-between;
+    border: 5px solid red;
+}
+
+form {
+    border: 3px solid rgb(255, 0, 242);
+    margin: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-content {
+    display: flex;
+    padding: 10px;
+    margin: 10px;
+}
+ 
+.table {
+    border:3px solid rgb(165, 42, 42);
+    margin: 10px;
+}
+
+table {
+    border:3px solid rgb(238, 255, 0);
+}
