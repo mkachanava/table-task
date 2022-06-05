@@ -9,61 +9,68 @@
     <meta name="description" content="Cards and transactions">
     <link rel="shortcut icon" href="img/logo.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600&display=swap" rel="stylesheet">
     <title>E-Cards</title>
 </head>
 
 <body>
     <aside>
-        <div class="aside_container">
-            <div class="aside-logo">
-                <svg width="20" height="38" viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path
-                        d="M13.115 15.0659L11.2634 15.7478L2.03211 19.1502L0.975965 19.5379V22.84C0.19388 22.0512 0.0133984 21.0753 0.00671387 19.8922V30.0058C0.00671387 30.066 0.00671305 30.1261 0.0267665 30.1863C0.033451 30.2531 0.04682 30.3333 0.060189 30.4002C0.18051 30.8748 0.474628 31.3026 0.90912 31.57L1.06286 31.6569L2.66045 32.5927L11.4572 37.7397C12.7206 38.475 14.3182 37.566 14.3182 36.0954V17.6729C14.3249 16.6569 13.877 15.7077 13.115 15.0659ZM2.80751 23.7959C2.80751 23.5686 2.94789 23.3748 3.15511 23.2946L4.32489 22.8601C4.68586 22.7331 5.06019 22.9871 5.06019 23.3614V24.3641C5.06019 24.5914 4.91313 24.7852 4.70591 24.8654L3.52275 25.3066C3.17516 25.4336 2.80751 25.1796 2.80751 24.8053V23.7959Z"
-                        fill="#0BB967" />
-                    <path
-                        d="M20 2.20496V3.221C20 3.74239 19.6792 4.19694 19.1979 4.37742L4.33158 9.87207H4.32489L0.0468192 11.4429C0.0267657 11.4496 0.0133984 11.4429 0.00671387 11.4229V8.67555C0.00671387 8.41485 0.0936106 8.16753 0.247354 7.96031C0.274092 7.9202 0.300831 7.88009 0.340938 7.84667C0.374361 7.79319 0.427834 7.75309 0.487994 7.7063C0.581577 7.62608 0.695215 7.56592 0.815536 7.52581L1.25003 7.37207V7.36539L1.28345 7.3587L18.3356 1.06191C19.1444 0.754423 20 1.34935 20 2.20496Z"
-                        fill="#0ACF83" />
-                    <path
-                        d="M17.6872 7.97369L7.54679 11.7237L7.51337 11.7437H7.50668L1.83155 13.836C1.65776 13.8961 1.50401 13.9764 1.35695 14.0633C0.528074 14.5579 0.00668694 15.467 0.00668694 16.463V17.4523L0.975938 17.0913L1.75134 16.8039L7.16578 14.8052L10.5815 13.5419L15.4412 11.7504L17.5735 10.975C17.8275 10.8814 18.0749 11.0686 18.0749 11.3293V12.9937C18.0749 13.1475 17.988 13.2945 17.8342 13.348L13.1083 15.086L11.2567 15.7678L2.0254 19.1702L0.969251 19.5579L0 19.9122V30.0258C0 30.086 -8.16775e-07 30.1461 0.0200527 30.2063C0.0267371 30.2732 0.0401061 30.3534 0.0534751 30.4202C0.160427 30.9149 0.46123 31.336 0.902406 31.5967L1.06952 31.6903L1.06284 31.6702C0.648397 31.3694 0.381017 30.8748 0.381017 30.3133C0.381017 29.7852 0.621658 29.3173 1.00267 29.0165C1.10963 28.9296 1.21658 28.8627 1.3369 28.8026C1.44385 28.7491 14.3249 24.0098 14.3249 24.0098L18.4692 22.479L18.877 22.332C19.5521 22.078 19.9933 21.4429 19.9933 20.7344V7.12476L17.6872 7.97369ZM5.06016 24.3707C5.06016 24.598 4.9131 24.7919 4.70588 24.8721L3.52273 25.3066C3.17513 25.4336 2.80749 25.1796 2.80749 24.8052V23.8026C2.80749 23.5753 2.94786 23.3814 3.15508 23.3012L4.32487 22.8667C4.68583 22.7397 5.06016 22.9937 5.06016 23.3681V24.3707Z"
-                        fill="#0ACF83" />
-                </svg>
-                <h1>E-Cards</h1>
-            </div>
-            <div class="aside-links">
-                <div class="content-transactions">
-                    <img src="img/transaction.png" alt="transactions">
-                    <a href="#">Transactions</a>
+        <div class="aside-container-header">
+            <div class="wrapper-aside-header">
+                <div class="aside-logo">
+                    <svg class="logo-ecards" width="20" height="38" viewBox="0 0 20 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M13.115 15.0659L11.2634 15.7478L2.03211 19.1502L0.975965 19.5379V22.84C0.19388 22.0512 0.0133984 21.0753 0.00671387 19.8922V30.0058C0.00671387 30.066 0.00671305 30.1261 0.0267665 30.1863C0.033451 30.2531 0.04682 30.3333 0.060189 30.4002C0.18051 30.8748 0.474628 31.3026 0.90912 31.57L1.06286 31.6569L2.66045 32.5927L11.4572 37.7397C12.7206 38.475 14.3182 37.566 14.3182 36.0954V17.6729C14.3249 16.6569 13.877 15.7077 13.115 15.0659ZM2.80751 23.7959C2.80751 23.5686 2.94789 23.3748 3.15511 23.2946L4.32489 22.8601C4.68586 22.7331 5.06019 22.9871 5.06019 23.3614V24.3641C5.06019 24.5914 4.91313 24.7852 4.70591 24.8654L3.52275 25.3066C3.17516 25.4336 2.80751 25.1796 2.80751 24.8053V23.7959Z"
+                            fill="#0BB967" />
+                        <path
+                            d="M20 2.20496V3.221C20 3.74239 19.6792 4.19694 19.1979 4.37742L4.33158 9.87207H4.32489L0.0468192 11.4429C0.0267657 11.4496 0.0133984 11.4429 0.00671387 11.4229V8.67555C0.00671387 8.41485 0.0936106 8.16753 0.247354 7.96031C0.274092 7.9202 0.300831 7.88009 0.340938 7.84667C0.374361 7.79319 0.427834 7.75309 0.487994 7.7063C0.581577 7.62608 0.695215 7.56592 0.815536 7.52581L1.25003 7.37207V7.36539L1.28345 7.3587L18.3356 1.06191C19.1444 0.754423 20 1.34935 20 2.20496Z"
+                            fill="#0ACF83" />
+                        <path
+                            d="M17.6872 7.97369L7.54679 11.7237L7.51337 11.7437H7.50668L1.83155 13.836C1.65776 13.8961 1.50401 13.9764 1.35695 14.0633C0.528074 14.5579 0.00668694 15.467 0.00668694 16.463V17.4523L0.975938 17.0913L1.75134 16.8039L7.16578 14.8052L10.5815 13.5419L15.4412 11.7504L17.5735 10.975C17.8275 10.8814 18.0749 11.0686 18.0749 11.3293V12.9937C18.0749 13.1475 17.988 13.2945 17.8342 13.348L13.1083 15.086L11.2567 15.7678L2.0254 19.1702L0.969251 19.5579L0 19.9122V30.0258C0 30.086 -8.16775e-07 30.1461 0.0200527 30.2063C0.0267371 30.2732 0.0401061 30.3534 0.0534751 30.4202C0.160427 30.9149 0.46123 31.336 0.902406 31.5967L1.06952 31.6903L1.06284 31.6702C0.648397 31.3694 0.381017 30.8748 0.381017 30.3133C0.381017 29.7852 0.621658 29.3173 1.00267 29.0165C1.10963 28.9296 1.21658 28.8627 1.3369 28.8026C1.44385 28.7491 14.3249 24.0098 14.3249 24.0098L18.4692 22.479L18.877 22.332C19.5521 22.078 19.9933 21.4429 19.9933 20.7344V7.12476L17.6872 7.97369ZM5.06016 24.3707C5.06016 24.598 4.9131 24.7919 4.70588 24.8721L3.52273 25.3066C3.17513 25.4336 2.80749 25.1796 2.80749 24.8052V23.8026C2.80749 23.5753 2.94786 23.3814 3.15508 23.3012L4.32487 22.8667C4.68583 22.7397 5.06016 22.9937 5.06016 23.3681V24.3707Z"
+                            fill="#0ACF83" />
+                    </svg>
+                    <h1>E-Cards</h1>
                 </div>
-                <div class="content-cards">
-                    <img src="img/cards.png" alt="cards">
-                    <a href="#">Cards</a>
+                <div class="aside-links-header">
+                    <div class="content-transactions">
+                        <img src="img/transaction.png" alt="transactions">
+                        <a href="#">Transactions</a>
+                    </div>
+                    <div class="content-cards">
+                        <img class="cards" src="img/cards.png" alt="cards">
+                        <a href="#">Cards</a>
+                    </div>
                 </div>
             </div>
         </div>
-
-        <div class="aside_container">
-            <div class="aside-profile">
-                <img src="img/profile_logo.png" alt="logo">
-                <div class="contact-items">
-                    <span class="name">Itai Bracha</span>
-                    <a href="mailto:Itaibrahca31@gmail.com">Itaibrahca31@gmail.com</a>
-                </div>
-            </div>
-            <div class="aside-links">
-                <div class="content-settings">
-                    <img src="img/settings.png" alt="settings">
-                    <a href="#">Settings</a>
-                </div>
-                <div class="content-logout">
-                    <div class="image-items">
-                        <div class="logout-item">
-                            <img src="img/logout_1.png" alt="logout">
-                        </div>
-                        <div class="image">
-                            <img src="img/logout_2.png" alt="logout">
-                        </div>
+        
+        <div class="line"></div>
+        <div class="aside-container-footer">
+            <div class="wrapper-aside-footer">
+                <div class="aside-profile">
+                    <img class="logo" src="img/profile_logo.png" alt="logo">
+                    <div class="contact-items">
+                        <span class="name">Itai Bracha</span>
+                        <a href="mailto:Itaibrahca31@gmail.com">Itaibrahca31@gmail.com</a>
                     </div>
-                    <a href="#">Logout</a>
+                </div>
+                <div class="aside-links-footer">
+                    <div class="content-settings">
+                        <img src="img/settings.png" alt="settings">
+                        <a href="#">Settings</a>
+                    </div>
+                    <div class="content-logout">
+                        <div class="image-items">
+                            <div class="logout-item">
+                                <img src="img/logout_1.png" alt="logout">
+                            </div>
+                            <div class="image">
+                                <img src="img/logout_2.png" alt="logout">
+                            </div>
+                        </div>
+                        <a href="#">Logout</a>
+                    </div>
                 </div>
             </div>
         </div>    
@@ -75,29 +82,42 @@
                 <div class="card-wrapper">
                     <div class="balance-items">
                         <h3>Current Balance</h3>
-                        <p class="card-name-item">VISA</p>
+                        <svg class="card-name-item" width="45" height="14" viewBox="0 0 45 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <g clip-path="url(#clip0_1_58)">
+                            <path d="M19.5 13.798H15.8546L18.1347 0.245667H21.7798L19.5 13.798Z" fill="white"/>
+                            <path d="M32.7146 0.576978C31.9955 0.302765 30.8551 0 29.445 0C25.8451 0 23.3101 1.84533 23.2946 4.48361C23.2647 6.43012 25.1096 7.51126 26.4894 8.16028C27.8997 8.82349 28.3791 9.25637 28.3791 9.84753C28.3648 10.7554 27.2395 11.1739 26.19 11.1739C24.7346 11.1739 23.9548 10.9582 22.7697 10.4531L22.2897 10.2365L21.7796 13.2787C22.6346 13.6532 24.2097 13.9854 25.8451 14C29.6701 14 32.1602 12.1832 32.1897 9.37173C32.2043 7.82897 31.2301 6.64684 29.1298 5.68087C27.8549 5.06078 27.0741 4.64265 27.0741 4.00819C27.089 3.4314 27.7345 2.84063 29.1737 2.84063C30.3588 2.81169 31.2295 3.08552 31.8891 3.35954L32.2188 3.50345L32.7146 0.576978Z" fill="white"/>
+                            <path d="M37.5595 8.99691C37.8597 8.21835 39.0148 5.20507 39.0148 5.20507C38.9997 5.234 39.3145 4.41213 39.4945 3.90759L39.7492 5.07534C39.7492 5.07534 40.4395 8.31933 40.5894 8.99691C40.0197 8.99691 38.2795 8.99691 37.5595 8.99691ZM42.0591 0.245667H39.2395C38.37 0.245667 37.7094 0.490561 37.3342 1.37011L31.9196 13.7978H35.7445C35.7445 13.7978 36.3742 12.1252 36.5096 11.7649C36.9292 11.7649 40.65 11.7649 41.1898 11.7649C41.2945 12.2407 41.6248 13.7978 41.6248 13.7978H45L42.0591 0.245667Z" fill="white"/>
+                            <path d="M12.8099 0.245667L9.23997 9.48709L8.84986 7.61282C8.18985 5.45016 6.11991 3.10047 3.80997 1.93215L7.07993 13.7837H10.9347L16.6645 0.245667H12.8099Z" fill="white"/>
+                            <path d="M5.92496 0.245667H0.0600008L0 0.519496C4.57503 1.64413 7.60499 4.35503 8.84986 7.6134L7.57489 1.38487C7.36498 0.519305 6.71992 0.274218 5.92496 0.245667Z" fill="white"/>
+                            </g>
+                            <defs>
+                            <clipPath id="clip0_1_58">
+                            <rect width="45" height="14" fill="white"/>
+                            </clipPath>
+                            </defs>
+                            </svg>
                     </div>
                     <p class="total-card-item">$4,570,80</p>
                     <p class="card-number-item">5294 2436 4780 2468</p>
                     <div class="card-items">
                         <div>
-                            <h4>NAME</h4>
-                            <p>Itai Bracha</p>
+                            <h4>name</h4>
+                            <p class="name-item">itai bracha</p>
                         </div>
                         <div>
-                            <h4>Valid Thru</h4>
-                            <p>12/24</p>
+                            <h4 class="validation">valid thru</h4>
+                            <p class="date">12/24</p>
                         </div>
                         <div>
-                            <h4>cvv</h4>
-                            <p>344</p>
+                            <h4 class="code-item">cvv</h4>
+                            <p class="number-item">344</p>
                         </div>
                     </div>    
                 </div>
             </div>
             <div class="new-card-content">
                 <button class="button-card-content">
-                    <svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg class="add-card-content" width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path
                             d="M16 0C7.17706 0 0 7.17706 0 16C0 24.8229 7.17706 32 16 32C24.8229 32 32 24.8217 32 16C32 7.17831 24.8229 0 16 0ZM16 29.5213C8.54531 29.5213 2.47869 23.4559 2.47869 16C2.47869 8.54406 8.54531 2.47869 16 2.47869C23.4547 2.47869 29.5213 8.54406 29.5213 16C29.5213 23.4559 23.4559 29.5213 16 29.5213Z"
                             fill="#6B6F7B" />
@@ -105,7 +125,7 @@
                             d="M22.1967 14.6491H17.2394V9.69174C17.2394 9.00761 16.6854 8.45236 16 8.45236C15.3146 8.45236 14.7606 9.00761 14.7606 9.69174V14.6491H9.80325C9.11787 14.6491 8.56387 15.2044 8.56387 15.8885C8.56387 16.5726 9.11787 17.1279 9.80325 17.1279H14.7606V22.0852C14.7606 22.7694 15.3146 23.3246 16 23.3246C16.6854 23.3246 17.2394 22.7694 17.2394 22.0852V17.1279H22.1967C22.8821 17.1279 23.4361 16.5726 23.4361 15.8885C23.4361 15.2044 22.8821 14.6491 22.1967 14.6491Z"
                             fill="#6B6F7B" />
                     </svg>
-                    <p>
+                    <p class="add-item">
                         Add new Card
                     </p>
                 </button>
@@ -116,38 +136,43 @@
         <form>
             <div class="form-content">
                 <div class="input-search">
-                    <input class="text-field-input" type="text" placeholder="Search for....">
-                    <img src="img/search.png" alt="search">
+                    <img class="search" src="img/search.png" alt="search">
+                    <input class="search-field-input" type="text" placeholder="Search for....">
                 </div>
 
-                <div>
-                    <input type="text" placeholder="plug & pay">
-                    <img src="img/plug & pay.png" alt="plug & pay">
+                <div class="input-pay">
+                    <input class="pay-field-input" type="text" placeholder="plug & pay">
+                    <div class="vertical-pay"></div>
+                    <img class="plug-pay" src="img/plug & pay.png" alt="plug & pay">
                 </div>
 
-                <div>
-                    <input type="text" placeholder="employee">
-                    <img src="img/user.png" alt="user">
+                <div class="input-employee">
+                    <input class="employee-field-input" type="text" placeholder="employee">
+                    <div class="vertical-employee"></div>
+                    <img class="employee" src="img/user.png" alt="user">
                 </div>
 
-                <div>
-                    <input type="text" placeholder="status">
-                    <img src="img/status.png" alt="status">
+                <div class="input-status">
+                    <input class="status-field-input" type="text" placeholder="status">
+                    <div class="vertical-status"></div>
+                    <img class="status" src="img/status.png" alt="status">
                 </div>
 
-                <div>
-                    <input type="text" placeholder="type">
-                    <img src="img/type.png" alt="type">
+                <div class="input-type">
+                    <input class="type-field-input" type="text" placeholder="type">
+                    <div class="vertical-type"></div>
+                    <img class="type" src="img/type.png" alt="type">
                 </div>
             </div>
             <div class="form-content">
-                <div class="selected">
+                <div class="select-item">
+                    <div class="vertical-select"></div>
                     <select name="selected">
                         <option value="1">Sort by</option>
                     </select> 
                 </div>
                 <button class="button-download">
-                    <img src="img/download.png" alt="download">
+                    <img class="download" src="img/download-arrow 1.png" alt="download">
                 </button>
             </div>
         </form>
@@ -155,7 +180,7 @@
         <div class="table">
             <table>
                 <tbody>
-                    <tr>
+                    <tr class="header-table">
                         <th></th>
                         <th colspan="2">Name</th>
                         <th colspan="2">User credentials</th>
@@ -165,7 +190,7 @@
                         <th>Total Used</th>
                         <th></th>
                     </tr>
-                    <tr>
+                    <tr class="column-table">
                         <td rowspan="2">
                             <input type="checkbox">
                         </td>
@@ -195,7 +220,7 @@
                             <em>$783.22</em>
                         </td>
                         <td rowspan="2">
-                            <button>
+                            <button class="button-points">
                                 <img src="img/points.png" alt="points">
                             </button>
                         </td>
@@ -214,7 +239,7 @@
                             <em>$783.22</em>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="column-table">
                         <td rowspan="2">
                             <input type="checkbox">
                         </td>
@@ -244,7 +269,7 @@
                             <em>$783.22</em>
                         </td>
                         <td rowspan="2">
-                            <button>
+                            <button class="button-points">
                                 <img src="img/points.png" alt="points">
                             </button>
                         </td>
@@ -264,7 +289,7 @@
                             <em>$783.22</em>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="column-table">
                         <td rowspan="2">
                             <input type="checkbox">
                         </td>
@@ -294,7 +319,7 @@
                             <em>$783.22</em>
                         </td>
                         <td rowspan="2">
-                            <button>
+                            <button class="button-points">
                                 <img src="img/points.png" alt="points">
                             </button>
                         </td>
@@ -314,7 +339,7 @@
                             <em>$783.22</em>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="column-table">
                         <td rowspan="2">
                             <input type="checkbox">
                         </td>
@@ -335,7 +360,7 @@
                         </td>
                         <td rowspan="2">
                             <img src="img/pending.png" alt="pending">
-                            <span>Pending</span>
+                            <span class="color-item">Pending</span>
                         </td>
                         <td rowspan="2">
                             <strong>Jan 12,2022</strong>
@@ -344,7 +369,7 @@
                             <em>$783.22</em>
                         </td>
                         <td rowspan="2">
-                            <button>
+                            <button class="button-points">
                                 <img src="img/points.png" alt="points">
                             </button>
                         </td>
@@ -364,7 +389,7 @@
                             <em>$783.22</em>
                         </td>
                     </tr>
-                    <tr>
+                    <tr class="column-table">
                         <td rowspan="2">
                             <input type="checkbox">
                         </td>
@@ -388,13 +413,13 @@
                             <span>Done</span>
                         </td>
                         <td rowspan="2">
-                            <hstrong>Jan 12,2022</strong>
+                            <strong>Jan 12,2022</strong>
                         </td>
                         <td rowspan="2">
                             <em>$783.22</em>
                         </td>
                         <td rowspan="2">
-                            <button>
+                            <button class="button-points">
                                 <img src="img/points.png" alt="points">
                             </button>
                         </td>
@@ -417,14 +442,15 @@
                 </tbody>
             </table>
 
-            <div>
-                <button>&lt</button>
-                <button>1</button>
-                <button>2</button>
-                <button>4</button>
-                <button>4</button>
-                <button>&gt</button>
+            <div class="buttons-pages">
+                <button class="previous-button">&lt</button>
+                <button class="first-button">1</button>
+                <button class="second-button">2</button>
+                <button class="third-button">3</button>
+                <button class="fourth-button">4</button>
+                <button class="next-button">&gt</button>
             </div>
+            <div class="clearfix"></div>
         </div>
     </main>    
 </body>
