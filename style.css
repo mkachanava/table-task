@@ -6,22 +6,24 @@
 body {
     background-color:rgb(240, 248, 250);
     display: flex;
+    overflow: hidden;
 }
 
 main {
-    margin-left: 367px;
-    margin-top: 38px;
+    width: 100%;
+    padding-left: 40px;
+    padding-top: 40px;
+    overflow: scroll;
+    height: 100vh;
 }
 
 aside {
-    position: fixed;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     width: 290px;
     height: 100vh;
     left: 0px;
-    top: 0px;
     background-color:  rgba(17, 17, 17, 1);
     border-radius: 0px 50px 0px 0px;
 }
@@ -380,6 +382,8 @@ form {
     justify-content: space-between;
     padding: 0;
     margin-bottom: 3px;
+    flex-wrap: wrap;
+
 }
 
 .form-content {
@@ -424,7 +428,7 @@ form {
 
 .vertical-pay {
     border: 2px solid rgba(225, 225, 225, 1);
-    height: 42px;
+    height: 38px;
     position:absolute;
     left: 110px;
     bottom: 1px;
@@ -460,7 +464,7 @@ form {
 
 .vertical-employee {
     border: 2px solid rgba(225, 225, 225, 1);
-    height: 42px;
+    height: 38px;
     position:absolute;
     left: 110px;
     bottom: 1px;
@@ -496,7 +500,7 @@ form {
 
 .vertical-status {
     border: 2px solid rgba(225, 225, 225, 1);
-    height: 42px;
+    height: 38px;
     position:absolute;
     left: 110px;
     bottom: 1px;
@@ -532,7 +536,7 @@ form {
 
 .vertical-type {
     border: 2px solid rgba(225, 225, 225, 1);
-    height: 42px;
+    height: 38px;
     position:absolute;
     left: 100px;
     bottom: 1px;
@@ -583,7 +587,7 @@ select {
 
 .vertical-select {
     border: 2px solid rgba(225, 225, 225, 1);
-    height: 42px;
+    height: 38px;
     position:absolute;
     left: 120px;
     bottom: 1px;
@@ -601,13 +605,13 @@ select {
 }
 
 .table {
-    width: 1475px;
+    width: 100%;
     border-radius: 30px 30px 30px 30px;
     background-color: rgba(255, 255, 255, 1);
 }
 
 table {
-    width: 1475px;
+    width: 100%;
     background-color: rgba(255, 255, 255, 1);
     border-radius: 30px 30px 0px 0px;
     border-collapse: collapse;
@@ -708,6 +712,7 @@ span {
     letter-spacing: 0em;
     text-align: center;
     color: rgba(49, 58, 78, 1);
+    cursor: pointer;
 }
 
 .first-button {
@@ -725,6 +730,7 @@ span {
     letter-spacing: 0em;
     text-align: center;
     color: rgba(49, 58, 78, 1);
+    cursor: pointer;
 }
 
 .second-button {
@@ -742,6 +748,7 @@ span {
     letter-spacing: 0em;
     text-align: center;
     color: rgba(49, 58, 78, 1);
+    cursor: pointer;
 }
 
 .third-button {
@@ -759,6 +766,7 @@ span {
     letter-spacing: 0em;
     text-align: center;
     color: rgba(49, 58, 78, 1);
+    cursor: pointer;
 }
 
 .fourth-button {
@@ -776,6 +784,7 @@ span {
     letter-spacing: 0em;
     text-align: center;
     color: rgba(49, 58, 78, 1);
+    cursor: pointer;
 }
 
 .next-button {
@@ -793,9 +802,10 @@ span {
     letter-spacing: 0em;
     text-align: center;
     color: rgba(49, 58, 78, 1);
+    cursor: pointer;
 }
 
-.header-table {
+.headerTable {
     height: 89px;
     border-bottom: 2px solid rgba(217, 217, 217, 1);
 }
@@ -811,3 +821,4 @@ span {
     cursor: pointer;
     color: rgba(49, 58, 78, 1);
 }
+
